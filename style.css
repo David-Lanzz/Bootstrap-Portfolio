@@ -1,0 +1,8 @@
+.headline {
+    background: url(./images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 94px);
+    top: 94px;
+}
