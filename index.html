@@ -5,15 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lanz's bootstrap Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+         <script src="https://kit.fontawesome.com/b42bc5ce06.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+  <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand p-4 text-dark" href="#">My logo</a>
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item p-2">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link text-dark" href="#about-me">About</a>
+                        </li>
+                        <li class="nav-item p-2 text-dark">
+                            <a class="nav-link text-dark" href="#contact-me">contact</a>
+                        </li>
+                    </ul>
+              </div>
+        </nav>
+
+         <header>
+            <div class="headline row mx-auto d-flex align-content-center justify-content-center">
+                <!-- Headline -->
+                <div class=" col-lg-6 w-50 h-50">
+                    <h2 class="text-bold">I’m Alexandra <br>Glad to see you!</h2>
+                    <p>I’m a software developer! I can help you build a
+                         product , feature or website Look through some 
+                         of my work and experience! If you like what you
+                          see and have a project you need coded, don’t 
+                          hestiate to contact me.
+                        </p>
+                         <!-- Social links -->
+               <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item">
+                        <a class="text-dark" href="https://twitter.com/MusongAkeh" target="_blank"><i class="fab fa-twitter"></i></a> 
+                    </li>
+                    <li class="list-group-item">
+                        <a class="text-dark" href="https://www.linkedin.com/in/musong-ernest-akeh-921b73211/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="list-group-item">
+                    <a class="text-dark" class="text-dark" href="" target="_blank"> <i class="fab fa-medium-m"></i></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="text-dark" href="https://github.com/ernestmusong" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="text-dark" href="" target="_blank"><i class="fab fa-angellist"></i></a>
+                    </li>
+             </ul>
+                </div>
+                
+            </div>
+         </header>
      <!-- Project section -->
-     <section class="project-section bg-light py-5">
+     <section id="portfolio" class="project-section bg-light py-5">
         <div class="container">
           <div class="row bg-white rounded p-4 my-5">
             <div class="col"><img src="./images/new.png" class="img-fluid" alt="Mockup image"></div>
@@ -100,7 +153,7 @@
           </div>
         </div>
       </section>
-    <section class="container bg-white p-5">
+    <section id="about-me" class="container bg-white p-5">
       <div class="row d-flex justify-content-end">
         <div class="col-5">
             <h2 class="pb-3">About Myself</h2>
@@ -150,7 +203,7 @@
     </section>
 
     <!-- Contact form -->
-    <section class="project-section bg-primary py-5">
+    <section id="contact-me" class="project-section bg-primary py-5">
         <div class="container">
           <div class="row">
             <div class="col-8 offset-2">
